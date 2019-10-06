@@ -1,0 +1,15 @@
+[ModelSim]
+MP0_counter_lib = $HDS_PROJECT_DIR\MP0_counter_lib\work
+[hdl]
+MP0_counter_lib = $HDS_PROJECT_DIR\MP0_counter_lib\hdl
+[hds]
+MP0_counter_lib = $HDS_PROJECT_DIR\MP0_counter_lib\hds
+[hds_settings]
+default_library = MP0_counter_lib
+version = 2
+[library_files_inclusion]
+MP0_counter_lib = all
+[library_type]
+MP0_counter_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

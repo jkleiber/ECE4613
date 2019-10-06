@@ -1,0 +1,218 @@
+m255
+K4
+z2
+!s11e vcom 2019.3 2019.07, Jul 24 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jklei/Desktop/Projects/ECE4613/MP0_counter/MP0_counter_lib/work
+T_opt
+!s110 1570389896
+V:DS1VINANU>jj<kWzFbOH2
+04 3 5 work mux behav 1
+=1-484520d2020d-5d9a3f88-e1-4f38
+Z1 o-quiet +acc -auto_acc_if_foreign -work MP0_counter_lib -L MP0_counter_lib
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2019.3;69
+R0
+T_opt1
+!s110 1570393249
+V<QT>6>Xl:oaeSoYR<>FPB0
+04 3 5 work reg behav 1
+=1-484520d2020d-5d9a4ca1-f3-4ff0
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1570393463
+VmO0Ei^O?T^UcMM8bGL@Co0
+04 10 6 work my_counter struct 1
+=1-484520d2020d-5d9a4d77-7f-11f4
+R1
+R2
+n@_opt2
+R3
+Eadder
+Z4 w1570393447
+Z5 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z6 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 -1
+R0
+Z9 8C:/Users/jklei/Desktop/Projects/ECE4613/MP0_counter/MP0_counter_lib/hdl/adder_behav.vhd
+Z10 FC:/Users/jklei/Desktop/Projects/ECE4613/MP0_counter/MP0_counter_lib/hdl/adder_behav.vhd
+l0
+L15
+VU@7nKkJAJ`SmM;>[RX2L=3
+!s100 Z?E^Gl6FLRk=<WX@Gd0671
+Z11 OL;C;2019.3;69
+33
+Z12 !s110 1570393458
+!i10b 1
+Z13 !s108 1570393457.000000
+Z14 !s90 -work|MP0_counter_lib|-nologo|-2008|-f|C:/Users/jklei/AppData/Local/Temp/Files0|
+Z15 !s107 C:/Users/jklei/Desktop/Projects/ECE4613/MP0_counter/MP0_counter_lib/hdl/my_counter_struct.vhd|C:/Users/jklei/Desktop/Projects/ECE4613/MP0_counter/MP0_counter_lib/hdl/Mux_behav.vhd|C:/Users/jklei/Desktop/Projects/ECE4613/MP0_counter/MP0_counter_lib/hdl/adder_behav.vhd|
+!i113 0
+Z16 o-nologo -work MP0_counter_lib -2008
+Z17 tExplicit 1 CvgOpt 0
+Abehav
+R5
+R6
+R7
+R8
+DEx4 work 5 adder 0 22 U@7nKkJAJ`SmM;>[RX2L=3
+!i122 -1
+l24
+L23
+VElHE7H5>J2gdO[8>_i_bm3
+!s100 ReUi5eEeBhIH_oK1SdD9Y1
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Emux
+Z18 w1570389777
+R6
+R7
+R8
+!i122 -1
+R0
+Z19 8C:/Users/jklei/Desktop/Projects/ECE4613/MP0_counter/MP0_counter_lib/hdl/Mux_behav.vhd
+Z20 FC:/Users/jklei/Desktop/Projects/ECE4613/MP0_counter/MP0_counter_lib/hdl/Mux_behav.vhd
+l0
+L14
+VeHj@Pi;=1EQc2bA81SS^`1
+!s100 ZJ71e^od]ojL6>lYcU<LI2
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Abehav
+R6
+R7
+R8
+DEx4 work 3 mux 0 22 eHj@Pi;=1EQc2bA81SS^`1
+!i122 -1
+l24
+L23
+VL9d6YajhaH<^7GmD<58Dk0
+!s100 N]hLTNO;ZQ6GlKFXccFXk3
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Emy_counter
+Z21 w1570393457
+R6
+R7
+R8
+!i122 -1
+R0
+Z22 8C:/Users/jklei/Desktop/Projects/ECE4613/MP0_counter/MP0_counter_lib/hdl/my_counter_struct.vhd
+Z23 FC:/Users/jklei/Desktop/Projects/ECE4613/MP0_counter/MP0_counter_lib/hdl/my_counter_struct.vhd
+l0
+L13
+VCCj[DL3R8X_:MJZ;Hdg;@1
+!s100 1Z?Y5_SO:cJEjkakbnn^P1
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Astruct
+DEx15 mp0_counter_lib 3 reg 0 22 OGV9FzQbdXEj2T0]0^^4m0
+R5
+DEx15 mp0_counter_lib 5 adder 0 22 U@7nKkJAJ`SmM;>[RX2L=3
+DEx15 mp0_counter_lib 3 mux 0 22 eHj@Pi;=1EQc2bA81SS^`1
+DEx4 work 10 my_counter 0 22 CCj[DL3R8X_:MJZ;Hdg;@1
+R6
+R7
+R8
+!i122 -1
+l85
+L41
+VHbUePoN3j:`Ua08cH`A1G1
+!s100 ;b;UAhHSYVZbe0J0eH7C81
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Ereg
+Z24 w1570390483
+R6
+R7
+R8
+!i122 -1
+R0
+Z25 8C:/Users/jklei/Desktop/Projects/ECE4613/MP0_counter/MP0_counter_lib/hdl/reg_behav.vhd
+Z26 FC:/Users/jklei/Desktop/Projects/ECE4613/MP0_counter/MP0_counter_lib/hdl/reg_behav.vhd
+l0
+L14
+VOGV9FzQbdXEj2T0]0^^4m0
+!s100 ePmeNd[jD1Bb0cah@Y:OR2
+R11
+33
+Z27 !s110 1570393244
+!i10b 1
+Z28 !s108 1570393244.000000
+R14
+Z29 !s107 C:/Users/jklei/Desktop/Projects/ECE4613/MP0_counter/MP0_counter_lib/hdl/reg_behav.vhd|
+!i113 0
+R16
+R17
+Abehav
+R6
+R7
+R8
+DEx4 work 3 reg 0 22 OGV9FzQbdXEj2T0]0^^4m0
+!i122 -1
+l24
+L22
+VnMT0FnGzLEb__6iBYP[;50
+!s100 PHF0Sja`FP=EV4_N[F7:F3
+R11
+33
+R27
+!i10b 1
+R28
+R14
+R29
+!i113 0
+R16
+R17

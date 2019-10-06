@@ -1,0 +1,91 @@
+# vsim -f hds_args.tmp -foreign "hdsInit C:/MentorGraphics/HDS_2019.3/resources/downstream/modelsim/ModelSim_64Bit.dll" -pli ""C:/MentorGraphics/HDS_2019.3/resources/downstream/modelsim/ModelSim_64Bit.dll"" 
+# Start time: 14:24:55 on Oct 06,2019
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vsim-3865) Due to PLI being present, global +acc is being enabled automatically. This will cause your simulation to run very slowly. Please use vsim -no_autoacc to disable this feature. This feature is now deprecated and will be removed from future releases.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.mux(behav)#1
+# Loading C:/MentorGraphics/HDS_2019.3/resources/downstream/modelsim/ModelSim_64Bit.dll
+add wave -position end  sim:/mux/SEL
+add wave -position end  sim:/mux/A
+add wave -position end  sim:/mux/B
+add wave -position end  sim:/mux/X
+force SEL 1
+force A 0x6
+force B 0x4
+run 10ns
+# 0
+# 
+# Causality operation skipped due to absence of debug database file
+force SEL 0
+run 10ns
+# 0
+# 
+force A 0xB
+force B 0x3
+force SEL 1
+run 10ns
+# 0
+# 
+# hds_start \$HDS_PROJECT_DIR\\MP0_counter_lib\\work
+# End time: 15:20:48 on Oct 06,2019, Elapsed time: 0:55:53
+# Errors: 2, Warnings: 2
+# reading modelsim.ini
+vsim -L MP0_counter_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays MP0_counter_lib.reg(behav)
+# vsim -L MP0_counter_lib -l transcript.txt -i -t ns -multisource_delay latest "+typdelays" MP0_counter_lib.reg(behav) -foreign "hdsInit C:/MentorGraphics/HDS_2019.3/resources/downstream/modelsim/ModelSim_64Bit.dll" -pli ""C:/MentorGraphics/HDS_2019.3/resources/downstream/modelsim/ModelSim_64Bit.dll"" 
+# Start time: 15:20:48 on Oct 06,2019
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vsim-3865) Due to PLI being present, global +acc is being enabled automatically. This will cause your simulation to run very slowly. Please use vsim -no_autoacc to disable this feature. This feature is now deprecated and will be removed from future releases.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.reg(behav)#1
+# Loading C:/MentorGraphics/HDS_2019.3/resources/downstream/modelsim/ModelSim_64Bit.dll
+# hds_start \$HDS_PROJECT_DIR\\MP0_counter_lib\\work
+# End time: 15:24:22 on Oct 06,2019, Elapsed time: 0:03:34
+# Errors: 0, Warnings: 1
+# reading modelsim.ini
+vsim -L MP0_counter_lib -l transcript.txt -i -t ns -multisource_delay latest +typdelays MP0_counter_lib.my_counter(struct)
+# vsim -L MP0_counter_lib -l transcript.txt -i -t ns -multisource_delay latest "+typdelays" MP0_counter_lib.my_counter(struct) -foreign "hdsInit C:/MentorGraphics/HDS_2019.3/resources/downstream/modelsim/ModelSim_64Bit.dll" -pli ""C:/MentorGraphics/HDS_2019.3/resources/downstream/modelsim/ModelSim_64Bit.dll"" 
+# Start time: 15:24:22 on Oct 06,2019
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vsim-3865) Due to PLI being present, global +acc is being enabled automatically. This will cause your simulation to run very slowly. Please use vsim -no_autoacc to disable this feature. This feature is now deprecated and will be removed from future releases.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.my_counter(struct)#1
+# Loading work.mux(behav)#1
+# Loading work.adder(behav)#1
+# Loading work.reg(behav)#1
+# Loading C:/MentorGraphics/HDS_2019.3/resources/downstream/modelsim/ModelSim_64Bit.dll
+add wave -position end  sim:/my_counter/IN2
+add wave -position end  sim:/my_counter/INC
+add wave -position end  sim:/my_counter/clk
+add wave -position end  sim:/my_counter/reset_val
+add wave -position end  sim:/my_counter/my_sum
+add wave -position end  sim:/my_counter/Q
+add wave -position end  sim:/my_counter/X
+force INC 0
+force reset_val 2
+force IN2 3
+force clk 0 0, 1 10 -repeat 20
+run 20
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /my_counter/U_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /my_counter/U_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /my_counter/U_0
+# 0
+# 
+force INC 1
+run 40
+# 0
+# 
+# End time: 15:30:11 on Oct 06,2019, Elapsed time: 0:05:49
+# Errors: 0, Warnings: 4
